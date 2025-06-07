@@ -4,7 +4,9 @@ import ClassbasedComponents from './components/ClassbasedComponents';
 import Functionalbasedcomponent from './components/Functionalbasedcomponent';
 import ProductList from './components/products/Index';
 import Condition from './hooks/condition/Condition';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import State from './hooks/State';
 
 
 //pass as props
@@ -23,7 +25,10 @@ function App() {
 
 
 
-     <Condition/>
+     {/* <Condition/> */}
+
+
+    <State/>
     </div>
   );
 }
