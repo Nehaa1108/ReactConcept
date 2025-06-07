@@ -3,7 +3,8 @@ import './App.css';
 import ClassbasedComponents from './components/ClassbasedComponents';
 import Functionalbasedcomponent from './components/Functionalbasedcomponent';
 import ProductList from './components/products/Index';
-
+import Condition from './hooks/condition/Condition';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 //pass as props
@@ -17,8 +18,12 @@ function App() {
      <Functionalbasedcomponent/> */}
 
 
-     <ProductList ListOfProduct={dummyProductData}  name="Neha" city="ABC"/>
+     {/* <ProductList ListOfProduct={dummyProductData}  name="Neha" city="ABC"/> */}
      {/* name is key  , Neha is value (props) */}
+
+
+
+     <Condition/>
     </div>
   );
 }
