@@ -7,6 +7,7 @@ import Condition from './hooks/condition/Condition';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import State from './hooks/State';
+import Statehooks from './hooks/Statehooks';
 
 
 //pass as props
@@ -28,7 +29,9 @@ function App() {
      {/* <Condition/> */}
 
 
-    <State/>
+    {/* <State/> */}
+
+    <Statehooks/>
     </div>
   );
 }
