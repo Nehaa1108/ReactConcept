@@ -1,13 +1,13 @@
 import ProductItem from "./components/ProductItem"
 
-const dummyProductData = ['Product1','Product2','Product3']
+// const dummyProductData = ['Product1','Product2','Product3']
 
 
 
 
 const ProductList=(
   // props
-{name,city}
+{name,city,ListOfProduct}
 )=>
 
   // props is object
@@ -25,8 +25,10 @@ const ProductList=(
 
         <ul>
           {
-            dummyProductData.map((item,index) =>
-              <li key={index}>{item}</li>
+            //dummyProductData
+            ListOfProduct.map((item,index) =>
+              // <li key={index}>{item}</li>
+            <ProductItem singleProductItem={item} key={index} />
             )
           }
         </ul>
