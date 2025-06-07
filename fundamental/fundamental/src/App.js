@@ -8,6 +8,7 @@ import Condition from './hooks/condition/Condition';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import State from './hooks/State';
 import Statehooks from './hooks/Statehooks';
+import Effecthooks from './hooks/Effecthooks';
 
 
 //pass as props
@@ -31,7 +32,10 @@ function App() {
 
     {/* <State/> */}
 
-    <Statehooks/>
+    {/* <Statehooks/> */}
+
+
+    <Effecthooks/>
     </div>
   );
 }
