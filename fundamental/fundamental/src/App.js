@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import State from './hooks/State';
 import Statehooks from './hooks/Statehooks';
 import Effecthooks from './hooks/Effecthooks';
+import Dummyais from './api/Dummyais';
 
 
 //pass as props
@@ -35,7 +36,9 @@ function App() {
     {/* <Statehooks/> */}
 
 
-    <Effecthooks/>
+    {/* <Effecthooks/> */}
+
+    <Dummyais/>
     </div>
   );
 }
