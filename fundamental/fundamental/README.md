@@ -143,7 +143,7 @@ This repository is organized in the order of learning, building on foundational 
 - Unit Testing with Jest & React Testing Library
 
 ### 📦 Real-World Projects & Demos
-- Todo List using Material UI
+- Todo List 
 - Shopping Cart (State Management)
 - Firebase Authentication
 
