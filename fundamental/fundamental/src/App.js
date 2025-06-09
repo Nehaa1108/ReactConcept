@@ -10,7 +10,7 @@ import State from './hooks/State';
 import Statehooks from './hooks/Statehooks';
 import Effecthooks from './hooks/Effecthooks';
 import Dummyais from './api/Dummyais';
-import Contextapi from './hooks/contextapi';
+import GlobalContext from './hooks/contextapi';
 
 
 //pass as props
@@ -41,7 +41,7 @@ function App() {
 
     {/* <Dummyais/> */}
 
-    <Contextapi/>
+    <GlobalContext/>
     </div>
   );
 }

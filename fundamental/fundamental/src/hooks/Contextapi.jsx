@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { createContext } from 'react'
 
-const Contextapi = () => {
-  return (
-    <div>C</div>
-  )
+
+
+//create the context
+export const GlobalContext = createContext(null)
+
+
+
+
+//create the global state that receit component as a child
+function GlobalState({childree})
+{
+  return <GlobalContext.Provider value={{}}> {childree}
+
+  </GlobalContext.Provider>
 }
-
-export default Contextapi
 
 
 
 
 //prop drilling---
-// when we have a multiple nested components 
-//  component A,component B, component C
