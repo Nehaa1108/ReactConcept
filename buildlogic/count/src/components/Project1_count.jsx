@@ -6,6 +6,16 @@ const Project1_count = () => {
 
   const [countinde,setCountinde] = useState(0)
   
+
+  const handleIncrementby2=()=>
+  {
+    setCountinde(countinde+2)
+  }
+
+   const handledecrementby3=()=>
+  {
+    setCountinde(countinde-3)
+  }
   
 //   const handleClick=()=>
 // {
@@ -35,6 +45,15 @@ const handleReset=()=>
         <button type='button' onClick={handleIncrement}>+ </button>
         <button type='button' onClick={handleDecrement}>- </button>
         <button type='button' onClick={handleReset}>Reset</button>
+
+        increment by 2 decrement by 3 and reset
+        <button onClick={handleIncrementby2}
+        disabled={countinde>=10}>+</button>
+        <button onClick={handledecrementby3} 
+        disabled={countinde<=0}
+        
+        >-</button>
+        <button onClick={handleReset}>Reset</button>
       </div>
     </div>
   )
