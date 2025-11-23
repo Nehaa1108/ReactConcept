@@ -1,0 +1,80 @@
+.todo-container {
+  width: 380px;
+  margin: auto;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  margin-top: 40px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #005fcc;
+}
+
+ul {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6px 0;
+  padding: 8px;
+  background: #f3f3f3;
+  border-radius: 6px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.del {
+  color: #d00000;
+}
+
+.delete-all {
+  background: #dc3545;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.count {
+  font-weight: bold;
+  margin-top: 6px;
+}
